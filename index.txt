@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Mustermann – Ihr Dienstleister</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei Max Mustermann</h1>
+        <p>Professionelle Dienstleistungen für Ihr Unternehmen</p>
+        <a href="#kontakt" class="cta">Jetzt Kontakt aufnehmen</a>
+    </header>
+
+    <section id="leistungen">
+        <h2>Unsere Dienstleistungen</h2>
+        <div class="service">
+            <h3>Webdesign</h3>
+            <p>Modernes und responsives Webdesign für Ihre Online-Präsenz.</p>
+            <a href="#kontakt" class="cta">Mehr erfahren</a>
+        </div>
+        <div class="service">
+            <h3>SEO-Optimierung</h3>
+            <p>Steigern Sie Ihre Sichtbarkeit in Suchmaschinen mit gezielten SEO-Maßnahmen.</p>
+            <a href="#kontakt" class="cta">Mehr erfahren</a>
+        </div>
+        <div class="service">
+            <h3>Online-Marketing</h3>
+            <p>Effektive Strategien für Ihr Online-Marketing, um Ihre Zielgruppe zu erreichen.</p>
+            <a href="#kontakt" class="cta">Mehr erfahren</a>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontaktieren Sie uns</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" required></textarea>
+            <button type="submit" class="cta">Absenden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Max Mustermann – Alle Rechte vorbehalten</p>
+    </footer>
+</body>
+</html>
