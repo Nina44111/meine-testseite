@@ -1,111 +1,70 @@
-/* Allgemeine Stile */
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f9fb;
+  color: #333;
+  padding: 2rem;
 }
 
-h1, h2, h3 {
-    color: #2c3e50;
-}
-
-/* Header */
 header {
-    background-color: #3498db;
-    color: white;
-    text-align: center;
-    padding: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
-header .cta {
-    background-color: #e74c3c;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+h1 {
+  color: #1a73e8;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-header .cta:hover {
-    background-color: #c0392b;
+h2 {
+  color: #222;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
 
-/* Dienstleistungen */
-#leistungen {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: white;
+p {
+  margin-bottom: 1rem;
 }
 
-.service {
-    background-color: #ecf0f1;
-    padding: 1rem;
-    border-radius: 8px;
-    width: 30%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+section {
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.service h3 {
-    color: #2980b9;
+button,
+a.cta {
+  display: inline-block;
+  background-color: #1a73e8;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 
-.service .cta {
-    display: inline-block;
-    margin-top: 1rem;
-    background-color: #3498db;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+button:hover,
+a.cta:hover {
+  background-color: #155ab6;
 }
 
-.service .cta:hover {
-    background-color: #2980b9;
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
 }
-
-/* Kontaktformular */
-#kontakt {
-    background-color: white;
-    padding: 2rem;
-    margin: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input, form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #e74c3c;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-form button
-::contentReference[oaicite:9]{index=9}
- 
